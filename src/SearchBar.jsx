@@ -47,7 +47,7 @@ import { useState } from 'react';
         try {
             ev.preventDefault();
      console.log(city);
-    //    setCity("");
+      setCity("");
        let newInfo=await getWeatherInfo(city);
        updateInfo(newInfo);
         }catch(err) {
